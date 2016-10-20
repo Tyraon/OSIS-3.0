@@ -1,0 +1,56 @@
+[LANGUAGE]
+Language=Български
+Author=Нанко Нанев
+Site=http://www.bg-interface.net
+
+[OPTION]
+Title=Yod'm 3D - настройки
+OK=Да
+CANCEL=Отказ
+
+[TAB_ACTIVATION]
+Title=Активиране бързи клавиши
+ErrorHotKeyMandatory=Моля, изберете поне един бърз клавиш
+ErrorHotKeyInvalid=Грешка при регистриране на този бърз клавиш
+HotkeyGroup=Активиране бързи клавиши
+TextHotkeyArrowKeyLeftRight=(Клавиш стрелка на ляво/дясно: Завъртане на куба)
+TextHotkeyArrowKeyUp=(Клавиш стрелка на горе: Показване куба отдалечен)
+TextHotkeyArrowKeyDown=(Клавиш стрелка на долу: Показване куба приближен)
+ShowCubeOnHorkeyDown=Показване на куб при натискане бърз клавиш
+StartWithWindows=Старт със Windows
+AutoCenterCubeOnMouseUp=Автоматично центриране на куба при въртене с мишката
+
+[TAB_LANGUAGE]
+Title=Език
+ChooseLanguage=Избор на език
+Author=Автор :
+Site=сайт :
+
+[TAB_ZOOM]
+Title=Размер
+ZoomHotkeydown=Размер при натискане на бързия клавиш.
+ZoomArrowKeyUPDown=Размер при натискане клавиш стрелка нагоре или надолу.
+ZoomRotateCubeWithHotkey=Размер при натискане клавиш стрелка за въртене.
+ZoomWhenMoveWindow=Размер при преместване на прозорец.
+
+[TAB_DISPLAY]
+Title=Екран
+Antialiasing=Активиране замаскиране на пиксели  (Ако се поддържа)
+HardwareProcessing=Активиране хардуерна обработка (ако се поддържа, Yod'm 3D изисква рестарт)
+OptimizeMemory=Освобождаване памет,когато не се ползва (но работи със забавяне)
+CubeTextureFilter=Ниво на филтър качество на куба:
+BackgroundTextureFilter=Ниво на филтър качество на фон:
+StandardBackground=Стандартен фон
+WidescreenBackground=Широкоекранен фон
+Background=Фон
+CubeTransparency=Прозрачност на куба  (Yod'm 3D изисква рестарт)
+Transparent=Прозрачен
+Opaque=Непрозрачен
+
+
+[MENU]
+Options=Настройки
+About=За програмата
+Exit=Изход
+Desktop=Десктоп
+NotificationMessage=Приложението изисква Вашето внимание...

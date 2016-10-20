@@ -1,0 +1,88 @@
+[LANGUAGE]
+Language=Românã
+Author=bai3tzash
+Site=bai3tzash@gmail.com	
+
+[OPTION]
+Title=Yod'm 3D - Opþiuni
+OK=OK
+CANCEL=Revocare
+
+[TAB_ACTIVATION]
+Title=Tastã de activare
+ErrorHotKeyMandatory=Alege cel puþin o tastã
+ErrorHotKeyInvalid=Eroare la activarea tastei
+HotkeyGroup=Activarea tastei
+TextHotkeyArrowKeyLeftRight=( Sãgeatã stânga/dreapta :Roteºte cubul  )
+TextHotkeyArrowKeyUp=( Sãgeatã sus: Îndepãrteazã cubul   )
+TextHotkeyArrowKeyDown=( Sãgeatã jos: Apropie cubul   )
+ShowCubeOnHorkeyDown=Aratã cubul cand tasta e apãsatã
+StartWithWindows=Deschide aplicaþia la pornirea Windows-ului
+AutoCenterCubeOnMouseUp=Pune cubul în centru la apãsarea mouse-ului
+HideTaskbarIcon=Ascunde icoana din taskbar (rulaþi Yodm3D din nou pentru a deschide fereastra de opþiuni)
+ShowCubeOnWindowMoveOut=Aratã cubul dacã o fereastrã iese din ecran
+DisableTaskbarButtonAnimation=Dezactiveazã animaþia butonului din taskbar (o schimbare mai rapidã a dektop-ului)
+DisableTaskbarButtonAnimationRestart=(Windows-ul are nevoie de un restart)
+AutoSwitchToAttentionWindow=Schimbã automat la fereastra în care au fost schimbãri
+ShowAttentionMessage=Aratã un mesaj de atenþie de la ferestrele altui desktop
+AutoHideWindowsOtherDesktop=Ascunde automat ferestrele deþinute de alt desktop
+
+[TAB_LANGUAGE]
+Title=Limba
+ChooseLanguage=Alege limba
+Author=Autor :
+Site=Mail :
+
+[TAB_ZOOM]
+Title=Zoom
+ZoomHotkeydown=Zoom daca tasta este apãsatã
+ZoomArrowKeyUPDown=Zoom daca sãgeata sus este apãsatã
+ZoomRotateCubeWithHotkey=Zoom când tasta e apãsatã pentru rotaþie
+ZoomWhenMoveWindow=Zoom when move window Zoom când se mutã fereastra
+RotationSpeed=Viteza de rotaþie
+ZoomSpeed=Viteza zoom-ului
+
+
+[TAB_DISPLAY]
+Title=Afiºare
+Antialiasing=Activeazã anti-aliasing  (dacã este suportat)
+HardwareProcessing=Activeazã procesarea hardware (dacã este suportatã, Yod'm 3D are nevoie de restart)
+OptimizeMemory=Goleºte memoria cand nu este folositã (dar realizeazã activarea mai lent)
+CubeTextureFilter=Nivelul filtrului texturii cubului :
+BackgroundTextureFilter=Nivelul filtrului texturii imaginii de fond :
+StandardBackground=Imagine de fond standard
+WidescreenBackground=Imagine de fond pe tot ecranul
+Background=Imagine de fond
+CubeTransparency=Transparenþa cubului  (Yod'm 3D are nevoie de restart)
+Transparent=Transparent
+Opaque=Opac
+ActiveWindowOpaque=Fereastra activã rãmâne opacã
+TaskbarOpaque=Taskbar-ul rãmâne opac
+
+
+[TAB_DESKTOP]
+Title=Desktop
+Desktop1=Desktop 1 :
+Desktop2=Desktop 2 :
+Desktop3=Desktop 3 :
+Desktop4=Desktop 4 :
+WinKey=+ Tasta Windows
+DirectAccess=Acces direct
+
+
+[TAB_MOUSE]
+Title=Mouse
+CubeActivation=Activarea cubului
+ActivateCubeWhenCursorOnCorner=Activeazã cubul când cursorul mouse-ului este în colþul desktop-ului
+ActivationDelay=Timpul de activare (în ms) : 
+
+
+[MENU]
+Options=Opþiuni
+About=Despre
+Exit=Ieºire
+Desktop=Desktop
+NotificationMessage=O aplicaþie are nevoie de atenþia ta...
+NeedRecoverNotification=Aceastã aplicaþie nu rãspunde comenzilor, voi încerca sã o recuperez
+RecoverNotification=A fost recuperatã
+Current=(Desktop-ul curent)

@@ -1,0 +1,34 @@
+[LANGUAGE]
+Language=Polski
+Author=mgr in¿. Toy ;+)
+Site=Furi Kuri?
+
+[OPTION]
+Title=Yod'm 3D - Opcje
+OK=OK
+CANCEL=Anuluj
+
+[TAB_ACTIVATION]
+Title=Skróty klawiszowe
+ErrorHotKeyMandatory=Wybierz przynajmniej jedn¹ kombinacjê klawiszy
+ErrorHotKeyInvalid=B³¹d w ustawieniu kombinacji klawiszy
+HotkeyGroup=Kombinacje klawiszy
+TextHotkeyArrowKeyLeftRight=(Strza³ka w lewo/prawo: obrót kostki)
+TextHotkeyArrowKeyUp=(Strza³ka w górê: oddal kostkê)
+TextHotkeyArrowKeyDown=(Strza³ka w dó³: przybli¿ kostkê)
+ShowCubeOnHorkeyDown=Poka¿ kostkê, gdy zostanie wybrana kombinacja klawiszy
+StartWithWindows=Startuj z Windows
+
+
+[TAB_LANGUAGE]
+Title=Jêzyk
+ChooseLanguage=Wybierz jêzyk
+Author=Autor:
+Site=Strona domowa:
+
+
+[MENU]
+Options=Opcje
+About=O programie
+Exit=Wyjœcie
+Desktop=Pulpit

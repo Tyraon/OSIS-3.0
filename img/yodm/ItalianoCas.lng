@@ -1,0 +1,58 @@
+[LANGUAGE]
+Language=Italiano V2.0
+Author=Claudio Casanovi
+Site=http://cli.di.unipi.it/~casanovi
+
+[OPTION]
+Title=Yod'm 3D - Opzioni
+OK=OK
+CANCEL=Annulla
+
+[TAB_ACTIVATION]
+Title=Tasti di attivazione
+ErrorHotKeyMandatory=E' necessario selezionare almeno un tasto di attivazione
+ErrorHotKeyInvalid=Si è verificato un errore nella registrazione del tasto di attivazione
+HotkeyGroup=Tasto di attivazione
+TextHotkeyArrowKeyLeftRight=(Freccia sinistra/destra: Ruota il cubo)
+TextHotkeyArrowKeyUp=(Freccia su: Allontana il cubo)
+TextHotkeyArrowKeyDown=(Freccia giu': Avvicina il cubo)
+ShowCubeOnHorkeyDown=Mostra il cubo quando premi i tasti di attivazione
+StartWithWindows=Esegui all'avvio di Windows
+AutoCenterCubeOnMouseUp=Centra automaticamente il cubo al rilascio del mouse
+
+
+[TAB_LANGUAGE]
+Title=Lingua
+ChooseLanguage=Selezionare la lingua di Yod'm
+Author=Autore:
+Site=Sito:
+
+[TAB_ZOOM]
+Title=Zoom
+ZoomHotkeydown=Zoom quando tasto di attivazione è premuto
+ZoomArrowKeyUPDown=Zoom quando il tasto SU è premuto
+ZoomRotateCubeWithHotkey=Zoom quando il tasto di attivazione è premuto per la rotazione
+ZoomWhenMoveWindow=Zoom durante lo spostamento di una finsetra
+
+[TAB_DISPLAY]
+Title=Visualizzazione
+Antialiasing=Attiva anti-aliasing  (se supportato)
+HardwareProcessing=Attiva preprocessig hardware (se supportato, necessita il riavvio di Yod'm 3D)
+OptimizeMemory=Libera la memoria quando Yod'm non è attivo (l'attivazione risulterà più lenta)
+CubeTextureFilter=Livello filtro texture del cubo :
+BackgroundTextureFilter=Livello filtro texture dello sfondo :
+StandardBackground=Sfondo standard
+WidescreenBackground=Sfondo widescreen
+Background=Sfondo
+CubeTransparency=Trasparenza del cubo  (necessita il riavvio di Yod'm 3D)
+Transparent=Trasparente
+Opaque=Opaco
+
+[MENU]
+Options=Opzioni
+About=Informazioni su Yod'm 3D
+Exit=Esci
+Desktop=Desktop
+NotificationMessage=Una applicazione richiede attenzione...
+NeedRecoverNotification=L'applicazione non risponde, tentativo di ripristino
+RecoverNotification=Ripristino completato

@@ -1,0 +1,60 @@
+[LANGUAGE]
+Language=German / Deutsch
+Author=Foo'bar
+Site=http://mexxoft.com/Onlinehilfe
+
+[OPTION]
+Title=Yod'm 3D - Einstellungen
+OK=OK
+CANCEL=Abbrechen
+
+[TAB_ACTIVATION]
+Title=Hotkeys
+ErrorHotKeyMandatory=Bitte wählen Sie mindestens einen Hotkey aus
+ErrorHotKeyInvalid=Fehler beim zuweisen des Hotkeys
+HotkeyGroup=Hotkey Einstellungen
+TextHotkeyArrowKeyLeftRight=( Pfeiltaste links/rechts : Würfel drehen    )
+TextHotkeyArrowKeyUp=( Pfeiltaste hoch : Würfel weit weg          )
+TextHotkeyArrowKeyDown=( Pfeiltaste unten : Würfel nah dran   )
+ShowCubeOnHorkeyDown=Würfel anzeigen bei gedrücktem Hotkey
+StartWithWindows=Mit Windows starten
+AutoCenterCubeOnMouseUp=Würfel automatisch zentrieren bei losgelassener Maustaste
+
+
+[TAB_LANGUAGE]
+Title=Sprache
+ChooseLanguage=Sprache auswählen
+Author=Autor :
+Site=Webseite :
+
+[TAB_ZOOM]
+Title=Zoom
+ZoomHotkeydown=Zoom bei gedrücktem Hotkey
+ZoomArrowKeyUPDown=Zoom bei gedrückter Pfeil-nach-oben-Taste
+ZoomRotateCubeWithHotkey=Zoom bei gedrückterm Hotkey für Drehung
+ZoomWhenMoveWindow=Zoom wenn Fenster bewegt wird
+
+[TAB_DISPLAY]
+Title=Anzeige
+Antialiasing=Kantenglättung aktivieren (falls unterstützt)
+HardwareProcessing=Hardware-Unterstützung aktivieren (falls unterstützt, erfordert Neustart)
+OptimizeMemory=Speicheroptimierung, falls ungenutzt (verlangsamt Aktivierung)
+CubeTextureFilter=Filterstufe der Würfeltextur:
+BackgroundTextureFilter=Filterstufe der Hintergrundtextur:
+StandardBackground=Standardhintergrund
+WidescreenBackground=Breitbildhintergrund
+Background=Hintergrund
+CubeTransparency=Würfeltransparenz  (erfordert Neustart)
+Transparent=mehr Transparent
+Opaque=mehr Opazität
+
+
+
+[MENU]
+Options=Einstellungen
+About=Über
+Exit=Beenden
+Desktop=Desktop
+NotificationMessage=Eine Anwendung erfordert Ihre Aufmerksamkeit...
+NeedRecoverNotification=Diese Anwendung reagiert nicht. Es wird versucht, sie wiederherzustellen.
+RecoverNotification=Wurde wiederhergestellt.

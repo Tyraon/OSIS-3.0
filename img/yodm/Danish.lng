@@ -1,0 +1,60 @@
+[LANGUAGE]
+Language=Danish / Dansk
+Author=Peter Sandberg Brun
+Site=http://peter.mpbrun.dk
+
+[OPTION]
+Title=Yod'm 3D - Indstillinger
+OK=OK
+CANCEL=Annuller
+
+[TAB_ACTIVATION]
+Title=Aktiveringstast
+ErrorHotKeyMandatory=Vælg mindst en tast
+ErrorHotKeyInvalid=Fejl ved registrering af denne tast
+HotkeyGroup=Genvej til aktivering
+TextHotkeyArrowKeyLeftRight=( Piletast venstre/højre : Roterer kube  )
+TextHotkeyArrowKeyUp=( Piletast op : Zoom ud                           )
+TextHotkeyArrowKeyDown=( Piletast ned : Zoom ind                         )
+ShowCubeOnHorkeyDown=Vis kube når genvejen benyttes
+StartWithWindows=Start sammen med Windows
+AutoCenterCubeOnMouseUp=Centrer automatisk kube, når musetasten slippes
+
+
+[TAB_LANGUAGE]
+Title=Sprog
+ChooseLanguage=Vælg dit sprog
+Author=Forfatter :
+Site=Hjemmeside :
+
+[TAB_ZOOM]
+Title=Zoom
+ZoomHotkeydown=Zoom ved aktivering
+ZoomArrowKeyUPDown=Zoom ved benyttelse af piletast op
+ZoomRotateCubeWithHotkey=Zoom ved benyttelse af aktiveringstast + rotation
+ZoomWhenMoveWindow=Zoom ved skift mellem vinduer
+
+[TAB_DISPLAY]
+Title=Skærm
+Antialiasing=Aktiver anti-aliasing (Hvis tilgængeligt)
+HardwareProcessing=Aktiver hardware behandling (Hvis tilgængeligt; kræver genstart af Yod'm 3D)
+OptimizeMemory=Frigør hukommelse, når kube ikke benyttes (Ulempe: Langsom aktivering)
+CubeTextureFilter=Kubens tekstur niveau :
+BackgroundTextureFilter=Baggrundens tekstur niveau :
+StandardBackground=Standard baggrund
+WidescreenBackground=Widescreen baggrund
+Background=Baggrund
+CubeTransparency=Kubens gennemsigtighed (Kræver genstart af Yod'm 3D)
+Transparent=Gennemsigtig
+Opaque=Ugennemsigtig
+
+
+
+[MENU]
+Options=Indstillinger
+About=Om
+Exit=Afslut
+Desktop=Skrivebord
+NotificationMessage=Et program kræver din opmærksomhed...
+NeedRecoverNotification=Dette program svarer ikke. Det forsøges at gendannes.
+RecoverNotification=Er gendannet.

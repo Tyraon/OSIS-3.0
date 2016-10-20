@@ -1,0 +1,99 @@
+[LANGUAGE]
+Language=English
+Author=Christian Salmon
+Site=http://chsalmon.club.fr
+
+[OPTION]
+Title=Yod'm 3D - Options
+OK=OK
+CANCEL=Cancel
+
+[TAB_ACTIVATION]
+Title=Activation key
+ErrorHotKeyMandatory=Please choose at least one hotkey
+ErrorHotKeyInvalid=Error registering this hotkey
+HotkeyGroup=Hotkey activation
+TextHotkeyArrowKeyLeftRight=( Arrow key left/right :Rotate cube    )
+TextHotkeyArrowKeyUp=( Arrow key up : Show cube far          )
+TextHotkeyArrowKeyDown=( Arrow key down : Show cube near   )
+ShowCubeOnHorkeyDown=Show cube when hotkey down
+StartWithWindows=Start with Windows
+AutoCenterCubeOnMouseUp=Auto center cube on mouse up
+HideTaskbarIcon=Hide taskbar icon (run Yodm3D again to open option dialog)
+ShowCubeOnWindowMoveOut=Auto turn cube when window move out of screen
+DisableTaskbarButtonAnimation=Disable taskbar button animation (faster desktop switch)
+DisableTaskbarButtonAnimationRestart=(windows needs to be restarted)
+AutoSwitchToAttentionWindow=Switch automatically to the windows which needs attention
+ShowAttentionMessage=Show attention message from windows of other desktop
+AutoHideWindowsOtherDesktop=Auto hide windows owned by other desktop
+
+[TAB_LANGUAGE]
+Title=Language
+ChooseLanguage=Choose your language
+Author=Author :
+Site=Site :
+
+[TAB_ZOOM]
+Title=Zoom
+ZoomHotkeydown=Zoom if hotkey hold down
+ZoomArrowKeyUPDown=Zoom if arrow key UP is down
+ZoomRotateCubeWithHotkey=Zoom when hotkey down for rotation
+ZoomWhenMoveWindow=Zoom when move window
+RotationSpeed=Rotation speed
+ZoomSpeed=Zoom speed
+
+
+[TAB_DISPLAY]
+Title=Display
+Antialiasing=Activate anti-aliasing  (if supported)
+HardwareProcessing=Activate hardware processing (if supported, Yod'm 3D needs to be restarted)
+OptimizeMemory=Free memory when not used (but make activation slowly)
+CubeTextureFilter=Cube texture filter level :
+BackgroundTextureFilter=Background texture filter level :
+StandardBackground=Standard background
+WidescreenBackground=Widescreen background
+Background=Background
+CubeTransparency=Cube transparency  (Yod'm 3D needs to be restarted)
+Transparent=Transparent
+Opaque=Opaque
+ActiveWindowOpaque=Active window stay opaque
+TaskbarOpaque=Taskbar stay opaque
+MirrorEffectOnCube=Activate mirror effect on cube
+MirrorEffectOnCubeShowFloor=Show floor
+
+
+
+[TAB_DESKTOP]
+Title=Desktop
+Desktop1=Desktop 1 :
+Desktop2=Desktop 2 :
+Desktop3=Desktop 3 :
+Desktop4=Desktop 4 :
+WinKey=+ Windows key
+DirectAccess=Direct access
+ManageDesktopIcon=Manage icons for each desktop
+
+
+[TAB_MOUSE]
+Title=Mouse
+CubeActivation=Cube activation
+ActivateCubeWhenCursorOnCorner=Activate the cube when the mouse cursor is on desktop corner
+ActivationDelay=Activation delay (in ms) :
+SwitchDesktop=Switch desktop
+ChangeDesktopOnMouseWheel=Switch desktop on mouse wheel
+ChangeDesktopOnMouseWheelCTRL=Only when CTRL key is down
+ChangeDesktopOnMouseWheelTaskbar=Only when the mouse cursor is on the taskbar
+ActivateOnMiddleClick=Activate cube on middle click
+ActivateOnMiddleClickOnTaskbar=Only when the mouse cursor is on the taskbar
+UseWheelMouseToTurnCube=Use mouse wheel to turn cube when activated
+
+[MENU]
+Options=Options
+About=About
+Exit=Exit
+Desktop=Desktop
+NotificationMessage=An application needs your attention...
+NeedRecoverNotification=This application is not responding, i will try to recover
+RecoverNotification=Has been recovered
+Current=(Current desktop)
+ShowHideDesktopIcons=Show/Hide desktop icons

@@ -1,0 +1,60 @@
+[LANGUAGE]
+Language=Finnish
+Author=Jouni Juhola
+Site=http://www.proz.com/profile/598488
+
+[OPTION]
+Title=Yod'm 3D - Options
+OK=OK
+CANCEL=Peruuta
+
+[TAB_ACTIVATION]
+Title=Aktivointi-painike
+ErrorHotKeyMandatory=Valitse ainakin yksi painike pikapainikkeeksi
+ErrorHotKeyInvalid=Tätä painiketta ei voi ottaa käyttöön
+HotkeyGroup=Pikapainikkeen käyttöönotto
+TextHotkeyArrowKeyLeftRight=( Nuolipainike vasen/oikea :Pyöritä kuutiota    )
+TextHotkeyArrowKeyUp=( Nuolipainike ylös : Näytä kuutio kaukaa          )
+TextHotkeyArrowKeyDown=( Nuolipainike alas : Näytä kuutio läheltä   )
+ShowCubeOnHorkeyDown=Näytä kuutio, kun pikapainike painetaan pohjaan
+StartWithWindows=Käynnistä Windowsin käynnistyessä
+AutoCenterCubeOnMouseUp=Keskitä kuutio hiirtä käytettäessä
+
+
+[TAB_LANGUAGE]
+Title=Kieli
+ChooseLanguage=Valitse oma kielesi
+Author=Author :
+Site=Site :
+
+[TAB_ZOOM]
+Title=Tarkenna
+ZoomHotkeydown=Tarkenna mikäli pikapaineketta painetaan
+ZoomArrowKeyUPDown=Tarkenna mikäli ylä-nuolipainiketta painetaan
+ZoomRotateCubeWithHotkey=Tarkenna mikäli pikapainikkeita painetaan 
+ZoomWhenMoveWindow=Tarkenna mikäli ikkunaa käytetään
+
+[TAB_DISPLAY]
+Title=Display
+Antialiasing=Käytä anti-aliasingia  (mikäli sitä tuetaan)
+HardwareProcessing=Käytä laitteistokiihdytystä (mikäli sitä käytetään, tulee Yod'm 3D käynnistää uudelleen)
+OptimizeMemory=Vapauta muisti kun sitä ei käytetä (Tekee käytön hitaaksi)
+CubeTextureFilter=Kuution tekstuurisuodattimen taso :
+BackgroundTextureFilter=Taustan tekstuurisuodattimen taso :
+StandardBackground=Vakio - tausta
+WidescreenBackground=Widescreen - tausta
+Background=Tausta
+CubeTransparency=Kuution läpikuultavuus  (Yod'm 3D tulee käynnistää uudelleen)
+Transparent=Läpikuultavuus
+Opaque=Läpikuultamaton
+
+
+
+[MENU]
+Options=Valinnat
+About=Ohjelmasta
+Exit=Sulje
+Desktop=Työpöytä
+NotificationMessage=Ohjelma kaipaa huomiotasi...
+NeedRecoverNotification=Ohjelma ei vastaa, yritetään palautusta
+RecoverNotification=On palautettu

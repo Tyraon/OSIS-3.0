@@ -1,0 +1,57 @@
+[LANGUAGE]
+Language=Swedish
+Author=Fredrik Christensson
+Site=http://www.engo-dev.se/
+
+[OPTION]
+Title=Yod'm 3D - Inställningar
+OK=OK
+CANCEL=Avbryt
+
+[TAB_ACTIVATION]
+Title=Aktiverings knapp
+ErrorHotKeyMandatory=Du måste välja minst en snabbknapp
+ErrorHotKeyInvalid=Fel vid registering av snabbknapp
+HotkeyGroup=Snappknapps aktivering
+TextHotkeyArrowKeyLeftRight=( Pil vänster/höger : Rotera kuben )
+TextHotkeyArrowKeyUp=( Pil upp : Visa minde kub )
+TextHotkeyArrowKeyDown=( Pil ner : Visa större kub )
+ShowCubeOnHorkeyDown=Visa kuben när snabbknappen är nertryckt
+StartWithWindows=Starta med Windows
+AutoCenterCubeOnMouseUp=Automatiskt centrera kuben vid musklick upp
+
+[TAB_LANGUAGE]
+Title=Språk
+ChooseLanguage=Välj språk
+Author=Författare :
+Site=Hemsida :
+
+[TAB_ZOOM]
+Title=Zoom
+ZoomHotkeydown=Zoom om snabbknappen är nertryckt
+ZoomArrowKeyUPDown=Zoom om pil upp är nertryckt
+ZoomRotateCubeWithHotkey=Zoom när fönstret roteras
+ZoomWhenMoveWindow=Zoom när förnstret flyttas
+
+[TAB_DISPLAY]
+Title=Bild
+Antialiasing=Akrivera anti-aliasing  (om ditt grafikkort stödjer det)
+HardwareProcessing=Aktivera hårdvarurendering (om ditt grafikkort stödjer det, Yod'm 3D måste startas om)
+OptimizeMemory=Rensa minnet när det inte används (slöar ner aktiveringen något)
+CubeTextureFilter=Kubens textur filter nivå :
+BackgroundTextureFilter=Bakgrundens textur filter nivå :
+StandardBackground=Standard bakgrund
+WidescreenBackground=Widescreen bakgrund
+Background=Bakgrund
+CubeTransparency=Kubens genomskinlighet (Yod'm 3D måste startas om)
+Transparent=Genomskinligt
+Opaque=Ogenomskinligt
+
+[MENU]
+Options=Inställningar
+About=Om
+Exit=Stäng
+Desktop=Skrivbord
+NotificationMessage=Ett program har bett om din uppmärksamhet...
+NeedRecoverNotification=Programmet svarar inte, försöker att återskapa
+RecoverNotification=Har återskapat

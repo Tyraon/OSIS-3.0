@@ -1,0 +1,58 @@
+[LANGUAGE]
+Language=Català
+Author=el_libre
+Site=http://www.catmidia.cat
+
+[OPTION]
+Title=Yod'm 3D - Opcions
+OK=Aceptar
+CANCEL=Cancel.lar
+
+[TAB_ACTIVATION]
+Title=Tecla(es) d'Activació
+ErrorHotKeyMandatory=Tria al menys una drecera de teclat
+ErrorHotKeyInvalid=Error: Drecera de teclat no vàlida
+HotkeyGroup=Activació de drecera de teclat
+TextHotkeyArrowKeyLeftRight=( Fletxa esquerra/dreta : Girar cub )
+TextHotkeyArrowKeyUp=( Fletxa adalt : Allunyar cub )
+TextHotkeyArrowKeyDown=( Fletxa avall : Apropar cub )
+ShowCubeOnHorkeyDown=Mostrar cub quan es facin servir les dreceres de teclat
+StartWithWindows=Executar en l'inici del sistema
+AutoCenterCubeOnMouseUp=Autocentra el cub amb el ratolí a sobre
+
+[TAB_LANGUAGE]
+Title=Idioma
+ChooseLanguage=Tria el teu idioma
+Author=Autor/a : 
+Site=Pàgina web oficial : 
+
+
+[TAB_ZOOM]
+Title=Ampliació
+ZoomHotkeydown=Apropa si la drecera de teclat està apretada
+ZoomArrowKeyUPDown=Apropa si la tecla amunt està apretada
+ZoomRotateCubeWithHotkey=Apropa quan demanis rotació
+ZoomWhenMoveWindow=Apropa quan moguis la finestra
+
+[TAB_DISPLAY]
+Title=Vista
+Antialiasing=Activa antienganxament  (si és suportat)
+HardwareProcessing=Activa el processament de maquinari (si és suportat, Necessita reiniciar Yod'm 3D)
+OptimizeMemory=Allibera memòria quan no es faci servir(però fes l'activació poc a poc)
+CubeTextureFilter=Nivell del filtre de la textura del Cub :
+BackgroundTextureFilter=Nivell de la textura del filtre de fons :
+StandardBackground=Fons estàndard
+WidescreenBackground=Fons de la pantalla girador (ocupa les 4 vistes )
+Background=Fons
+CubeTransparency=Transparència del cub (Necessita reiniciar Yod'm 3D)
+Transparent=Transparent
+Opaque=Opac
+
+[MENU]
+Options=Opcions
+About=Sobre...
+Exit=Sortir
+Desktop=Escriptori
+NotificationMessage=Una aplicació requereix de la teva atenció...
+NeedRecoverNotification=Aquesta aplicació no respon, provarem de recuperar-la
+RecoverNotification=ha estat recuperat

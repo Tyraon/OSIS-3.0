@@ -1,0 +1,35 @@
+[LANGUAGE]
+Language=Magyar
+Author=Lewis
+Site=http://www.lewis.hu
+
+[OPTION]
+Title=Yod'm 3D - Bell\t'sok
+OK=OK
+CANCEL=Mégse
+
+[TAB_ACTIVATION]
+Title=Aktiváló billentyû
+ErrorHotKeyMandatory=Kérem válasszon legalább egy forró billentyût
+ErrorHotKeyInvalid=Hiba a gyorsbilentyû beállításakkor
+HotkeyGroup=Forró bilenytû aktiválása
+TextHotkeyArrowKeyLeftRight=( Bal/jobb kurzor billenytû: A kocka forgatása )
+TextHotkeyArrowKeyUp=( Kurzor billenytyû fel : Kocka távolítása )
+TextHotkeyArrowKeyDown=( Kurzor billenytyû fel : Kocka közelítése )
+ShowCubeOnHorkeyDown=Kocka mutatása a forró billentyû lenyomása idején
+StartWithWindows=Program indítása a Windows indulásakkor
+
+
+[TAB_LANGUAGE]
+Title=Nyelv
+ChooseLanguage=Válasszon egy nyelvet
+Author=Szerzõ :
+Site=Honlap :
+
+
+[MENU]
+Options=Beállítások
+About=Névjegy
+Exit=Kilépés
+Desktop=Munkaaszta
+NotificationMessage=An application needs your attention...

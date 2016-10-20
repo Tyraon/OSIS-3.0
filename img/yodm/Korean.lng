@@ -1,0 +1,89 @@
+[LANGUAGE]
+Language=Korean (한국어)
+Author=John Kang
+Site=http://yodm3d.kangjang.net
+
+[OPTION]
+Title=Yod'm 3D - 환경설정
+OK=확인
+CANCEL=취소
+
+[TAB_ACTIVATION]
+Title=단축키 설정
+ErrorHotKeyMandatory=최소한 하나의 단축키를 설정해주세요.
+ErrorHotKeyInvalid=이 단축키를 설정하는데 문제가 있습니다.
+HotkeyGroup=실행 단축키
+TextHotkeyArrowKeyLeftRight=( 좌우 화살표키 : 큐브 돌리기   )
+TextHotkeyArrowKeyUp=( ∧ 화살표키 : 큐브 밀기           )
+TextHotkeyArrowKeyDown=( ∨ 화살표키 : 큐브 당기기       )
+ShowCubeOnHorkeyDown=단축키를 누르면 큐브 바로 보여주기
+StartWithWindows=부팅시 실행하기
+AutoCenterCubeOnMouseUp=마우스를 올려놓으면 큐브를 가운데 정렬하기
+HideTaskbarIcon=작업표시줄의 Yodm3D 아이콘 감추기 (환경설정에 들어오려면 Yodm3D을 또 실행해야함.)
+ShowCubeOnWindowMoveOut=창이 화면 밖으로 나가면 자동으로 큐브 돌리기
+DisableTaskbarButtonAnimation=작업표시줄 움직이는 아이콘 중지(데스크탑 변경이 빨라짐)
+DisableTaskbarButtonAnimationRestart=(컴퓨터를 재부팅하셔야 합니다.)
+AutoSwitchToAttentionWindow=들여다봐야하는 창으로 자동으로 이동하기
+ShowAttentionMessage=다른 데스크탑의 경고도 보여주기
+AutoHideWindowsOtherDesktop=다른 데스크탑에서 실행중인 창 가리기
+
+[TAB_LANGUAGE]
+Title=언어 설정
+ChooseLanguage=원하시는 언어를 골라주세요.
+Author=제작자 :
+Site=웹주소 :
+
+[TAB_ZOOM]
+Title=Zoom 설정
+ZoomHotkeydown=기본 Zoom 정도 설정하기
+ZoomArrowKeyUPDown=∧ 화살표키를 눌렀을 때 추가적인 Zoom 설정하기
+ZoomRotateCubeWithHotkey=단축키를 눌러서 회전시 Zoom 설정하기
+ZoomWhenMoveWindow=창을 옮길때의 Zoom 설정하기
+RotationSpeed=회전 속도
+ZoomSpeed=Zoom 속도
+
+
+[TAB_DISPLAY]
+Title=표시 설정
+Antialiasing=Anti-aliasing(화면 다듬기) 활성화 하기 (지원 가능시)
+HardwareProcessing=하드웨어적 처리 활성화 하기 (지원 가능시, Yod'm 3D 재시작이 필요합니다.)
+OptimizeMemory=사용하지 않을때 메모리 비우기 (실행 속도가 느려집니다.)
+CubeTextureFilter=큐브 화질 :
+BackgroundTextureFilter=배경 화질 :
+StandardBackground=일반 모니터용 배경
+WidescreenBackground=와이드 모니터용 배경
+Background=배경 설정
+CubeTransparency=큐브 투명도 설정  (Yod'm 3D 재시작이 필요합니다.)
+Transparent=투명
+Opaque=불투명
+ActiveWindowOpaque=활성된 창은 불투명 상태로 유지하기
+TaskbarOpaque=작업표시줄을 불투명 상태로 유지하기
+
+
+[TAB_DESKTOP]
+Title=가상 데스크탑 설정
+Desktop1=가상 데스크탑 1 :
+Desktop2=가상 데스크탑 2 :
+Desktop3=가상 데스크탑 3 :
+Desktop4=가상 데스크탑 4 :
+WinKey=+ 윈도우 키 (Alt 옆)
+DirectAccess=직접 접근하는 바로가기 설정
+ManageDesktopIcon=개별 데스크탑의 아이콘 관리
+
+
+[TAB_MOUSE]
+Title=마우스 설정
+CubeActivation=큐브 활성화
+ActivateCubeWhenCursorOnCorner=마우스 커서가 화면 모서리에 있을 때, 큐브를 활성화합니다.
+ActivationDelay=활성화 대기시간 (단위: ms) :
+
+
+[MENU]
+Options=설정
+About=Yod'm 3D는?
+Exit=종료
+Desktop=데스크탑
+NotificationMessage=주의를 요하는 프로그램이 있습니다.
+NeedRecoverNotification=오류가 발생한 프로그램이 있어 복구중입니다..
+RecoverNotification=복구되었습니다.
+Current=(현재 데스크탑)

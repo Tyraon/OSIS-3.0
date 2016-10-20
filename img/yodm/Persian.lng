@@ -1,0 +1,60 @@
+[LANGUAGE]
+Language=Ё«—”н
+Author=Vahid Ghafarpour
+Site=http://vahid.ghafarpour.ir
+
+[OPTION]
+Title=Yod'm 3D - «д ќ«»Эе«
+OK= «ннѕ
+CANCEL=«д’—«Ё
+
+[TAB_ACTIVATION]
+Title=ябнѕ ЁЏ«бЭ”«“н
+ErrorHotKeyMandatory=бЎЁ« Ќѕ«ёб ня ябнѕ гн«дЭ»— —« «д ќ«» яднѕ
+ErrorHotKeyInvalid=ќЎ« ѕ— Ћ»  «нд ябнѕ гн«дЭ»—
+HotkeyGroup=ЁЏ«бЭ”«“н ябнѕ гн«дЭ»—
+TextHotkeyArrowKeyLeftRight=( ябнѕ —«” /НБ : ѕж—«д гяЏ»)
+TextHotkeyArrowKeyUp=( ябнѕ »«б« : дг«н‘ гяЏ» «“ ѕж—)
+TextHotkeyArrowKeyDown=( ябнѕ Б«ннд : дг«н‘ гяЏ» «“ д“ѕня)
+ShowCubeOnHorkeyDown=дг«н‘ гяЏ» ѕ— едР«г Ё‘—ѕеЭ‘ѕд ябнѕ гн«дЭ»—
+StartWithWindows=—«еЭ«дѕ«“н егЭ“г«д »« ‘—жЏ ”н” г
+AutoCenterCubeOnMouseUp=гяЏ» —« »« гж‘Эж«—е ѕ— г—я“ ё—«— »ѕе
+
+
+[TAB_LANGUAGE]
+Title=“»«д
+ChooseLanguage=“»«д ќжѕ —« «д ќ«» яднѕ
+Author=гжбЁ :
+Site=”«н  :
+
+[TAB_ZOOM]
+Title=»“—Рдг«нн
+ZoomHotkeydown=»“—Рдг«нн ѕ— едР«гн яе ябнѕ гн«дЭ»— Б«ннд «” 
+ZoomArrowKeyUPDown=»“—Рдг«нн едР«гн яе ябнѕ »«б« Ё‘—ѕе ‘ѕеЭ«” 
+ZoomRotateCubeWithHotkey=»“—Рдг«нн едР«гн яе ябнѕ гн«дЭ»— Р—ѕ‘ Ё‘—ѕе ‘ѕеЭ«” 
+ZoomWhenMoveWindow=»“—Рдг«нн едР«гн яе Бдћ—еЭе« Ќ—я  гнЭядѕ
+
+[TAB_DISPLAY]
+Title=дг«н‘
+Antialiasing=егж«— ”«“н д«’«ЁнЭе«  (ѕ— ’ж—  Б‘ н»«дн)ю
+HardwareProcessing=ЁЏ«бЭ”«“н Б—ѕ«“‘ ”ќ Э«Ё“«—н (ѕ— ’ж—  Б‘ н»«дн, дн«“ »е —«еЭ«дѕ«“н гћѕѕ ѕ«—ѕ)ю
+OptimizeMemory=¬“«ѕ ”«“н Ќ«Ёўе ѕ— “г«днЭяе «” Ё«ѕе дгнЭ‘жѕ(«г« ”»» я«е‘ ”—Џ  гнЭ‘жѕ)ю
+CubeTextureFilter=”ЎЌ Ёнб — »«Ё  гяЏ» :
+BackgroundTextureFilter=”ЎЌ Ёнб — »«Ё  Б”Э“гнде :
+StandardBackground=Б”Э“гнде «” «дѕ«—ѕ
+WidescreenBackground=Б”Э“гнде Р” —ѕе
+Background=Б”Э“гнде
+CubeTransparency=‘Ё«Ён  гяЏ» (дн«“ »е —«еЭ«дѕ«“н гћѕѕ ѕ«—ѕ)ю
+Transparent=‘Ё«Ё
+Opaque=г« 
+
+
+
+[MENU]
+Options=Р“ндеЭе«
+About=ѕ—»«—еЭг«
+Exit=ќ—жћ
+Desktop=гн“я«—
+NotificationMessage=ня »—д«ге дн«“ »е  жће ‘г« ѕ«—ѕ...
+NeedRecoverNotification=«нд »—д«ге Б«”ќ дгнЭѕеѕ,”Џн гнЭядг  —гнг ‘жѕ
+RecoverNotification= —гнгЭ‘ѕ

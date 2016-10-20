@@ -1,0 +1,54 @@
+[LANGUAGE]
+Language=繁體中文
+Author=John Tian
+Site=john.tian.zheng@gmail.com
+
+[OPTION]
+Title=Yod'm 3D - 選項
+OK=確定
+CANCEL=取消
+
+[TAB_ACTIVATION]
+Title=快捷鍵
+ErrorHotKeyMandatory=請設置一個快捷鍵
+ErrorHotKeyInvalid=注冊快捷鍵失敗
+HotkeyGroup=快捷鍵設置
+TextHotkeyArrowKeyLeftRight=( 方向鍵 ←/→ :旋轉立方體    )
+TextHotkeyArrowKeyUp=( 方向鍵 ↑ : 遠觀立體效果     )
+TextHotkeyArrowKeyDown=( 方向鍵 ↓ : 近看立體效果     )
+ShowCubeOnHorkeyDown=按下快捷鍵即顯示立體效果
+StartWithWindows=隨系統啟動
+AutoCenterCubeOnMouseUp=放開鼠標時立方體自動居中
+
+
+[TAB_LANGUAGE]
+Title=語言
+ChooseLanguage=選擇你的語言
+Author=作者 :
+Site=Email :
+
+[TAB_ZOOM]
+Title=縮放
+ZoomHotkeydown=熱鍵按下時的縮放比例
+ZoomArrowKeyUPDown=“↑”方將建按下時縮放比例
+ZoomRotateCubeWithHotkey=旋轉時縮放比例
+ZoomWhenMoveWindow=移動窗口時縮放比例
+
+[TAB_DISPLAY]
+Title=顯示
+Antialiasing=使用反鋸齒  (如果支持的話)
+HardwareProcessing=使用硬件加速 (若支持, Yod'm 3D 需要重新運行)
+OptimizeMemory=當不使用時釋放內存 (但是動畫速度會變慢)
+CubeTextureFilter=立方體的材質渲染級別 :
+BackgroundTextureFilter=背景材質渲染級別:
+StandardBackground=標准背景
+WidescreenBackground=寬屏背景
+Background=背景
+CubeTransparency=立方體透明度  (Yod'm 3D 需要重啟)
+Transparent=透明
+Opaque=不透明
+
+[MENU]
+Options=選項
+About=關于Yod'm 3D
+Exit=退出

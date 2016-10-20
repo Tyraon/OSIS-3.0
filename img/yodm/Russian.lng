@@ -1,0 +1,87 @@
+[LANGUAGE]
+Language=Русский для v1.4 (полный перевод)
+Author=Kolobov Alexander (alcos)
+Site=alex0@mail.primorye.ru
+
+[OPTION]
+Title=Настройка Yod'm 3D
+OK=OK
+CANCEL=Отмена
+
+[TAB_ACTIVATION]
+Title=Основные
+ErrorHotKeyMandatory=Пожалуйста, назначьте по крайней мере одну горячую клавишу
+ErrorHotKeyInvalid=При назначении этой горячей клавиши произошла ошибка
+HotkeyGroup=Активация горячей клавиши
+TextHotkeyArrowKeyLeftRight=( Клавиша влево/вправо: повернуть куб )
+TextHotkeyArrowKeyUp=( Клавиша вверх : уменьшить куб )
+TextHotkeyArrowKeyDown=( Клавиша вниз : увеличить куб )
+ShowCubeOnHorkeyDown=Показывать куб при нажатии горячих клавиш
+StartWithWindows=Запускать вместе с Windows
+AutoCenterCubeOnMouseUp=Автоцентровка куба при вращении мышью
+HideTaskbarIcon=Скрыть иконку Yod'm 3D в панели задач (новый запуск, чтобы вновь увидеть настройки)
+ShowCubeOnWindowMoveOut=Авто поворот куба, когда окно перемещается за пределы экрана
+DisableTaskbarButtonAnimation=Отключить анимацию кнопок панели задач (более быстрое переключение)
+DisableTaskbarButtonAnimationRestart=(необходим перезапуск Windows)
+AutoSwitchToAttentionWindow=Автоматически переключаться на окна уведомлений Windows
+ShowAttentionMessage=Показывать уведомления Windows на любом рабочем столе
+AutoHideWindowsOtherDesktop=Автоматически скрывать окна на других рабочих столах
+
+[TAB_LANGUAGE]
+Title=Язык интерфейса
+ChooseLanguage=Укажите ваш язык
+Author=Автор полного перевода:
+Site=E-mail:
+
+[TAB_ZOOM]
+Title=Масштаб
+ZoomHotkeydown=Масштаб при нажатии горячих клавиш активации
+ZoomArrowKeyUPDown=Масштаб при нажатии клавиши со стрелкой вверх
+ZoomRotateCubeWithHotkey=Масштаб при нажатии клавиш вращения
+ZoomWhenMoveWindow=Масштаб при перемещении окна за пределы экрана
+RotationSpeed=Скорость вращения куба
+ZoomSpeed=Скорость масштабирования куба
+
+
+[TAB_DISPLAY]
+Title=Эффекты
+Antialiasing=Включить анти-алисинг (если поддерживается)
+HardwareProcessing=Активировать аппаратную обработку (если поддерживает, нужен перезапуск Yod'm 3D)
+OptimizeMemory=Освобождать память при простое программы (активация будет медленнее)
+CubeTextureFilter=Уровень фильтрации текстур куба :
+BackgroundTextureFilter=Уровень фильтрации текстур фона куба :
+StandardBackground=Стандартный фон
+WidescreenBackground=Широкоформатный фон
+Background=Выбор фоновой картинки
+CubeTransparency=Прозрачность куба (Yod'm 3D нужно перезагрузить)
+Transparent=Прозрачно
+Opaque=Непрозрачно
+ActiveWindowOpaque=Активное окно остается непрозрачным
+TaskbarOpaque=Панель задач остается непрозрачной
+
+
+[TAB_DESKTOP]
+Title=Рабочий стол
+Desktop1=Рабочий стол 1 :
+Desktop2=Рабочий стол 2 :
+Desktop3=Рабочий стол 3 :
+Desktop4=Рабочий стол 4 :
+WinKey=+ Клавиша Windows
+DirectAccess=Прямой доступ по горячим клавишам
+ManageDesktopIcon=Независимое управление иконками каждого рабочего стола
+
+[TAB_MOUSE]
+Title=Мышь
+CubeActivation=Активация куба
+ActivateCubeWhenCursorOnCorner=Активировать куб, когда курсор мыши находится в указанном углу
+ActivationDelay=Задержка активации (в мс) :
+
+[MENU]
+Options=Настройка
+About=О программе
+Exit=Выход
+Desktop=Рабочий стол
+NotificationMessage=Программе необходимо ваше вмешательство...
+NeedRecoverNotification=Приложение не отвечает, попробуйте восстановить
+RecoverNotification=Было восстановлено
+Current=(Текущий Рабочий стол)

@@ -1,0 +1,59 @@
+[LANGUAGE]
+Language=Czech (Èesky)
+Author=Christian Salmon
+Site=http://chsalmon.club.fr
+
+[OPTION]
+Title=Yod'm 3D - Nastavení
+OK=OK
+CANCEL=Storno
+
+[TAB_ACTIVATION]
+Title=Aktivaèní klávesy
+ErrorHotKeyMandatory=Vyberte alespoò jednu klávesu
+ErrorHotKeyInvalid=Tato volba klávesy je chybná
+HotkeyGroup=Aktivaèní klávesy
+TextHotkeyArrowKeyLeftRight=( Klávesové šipky levá/pravá : rotace kostky )
+TextHotkeyArrowKeyUp=( Klávesová šipka nahoru : oddálí kostku )
+TextHotkeyArrowKeyDown=( Klávesová šipka dolù : pøiblíí kostku )
+ShowCubeOnHorkeyDown=Pøi zmáèknutí aktivaèní klávesy ihned zobrazit kostku 
+StartWithWindows=Spusit se startem Windows
+AutoCenterCubeOnMouseUp=Automaticky vycentrovat kostku pøi puštìní tlaèítka myši
+
+
+[TAB_LANGUAGE]
+Title=Jazyk
+ChooseLanguage=Vyberte váš jazyk
+Author=Autor :
+Site=Stránky :
+
+[TAB_ZOOM]
+Title=Oddálení
+ZoomHotkeydown=Oddálení pøi zmáèknutí aktivaèní klávesy
+ZoomArrowKeyUPDown=Oddálení pøi zmáèknutí šipky nahoru
+ZoomRotateCubeWithHotkey=Oddálení pøi zmáèkní klávesy pro rotaci
+ZoomWhenMoveWindow=Oddálení pøi pøetahování okna
+
+[TAB_DISPLAY]
+Title=Zobrazení
+Antialiasing=Aktivovat anti-aliasing  (pokud je podporován)
+HardwareProcessing=Aktivovat hardwarovou akceleraci (pokud je podporována, vyaduje restart programu)
+OptimizeMemory=Uvolnit pamì pøi neaktivitì (ale zpùsobí pomalou aktivaci)
+CubeTextureFilter=Stupeò filtrování textury kostky:
+BackgroundTextureFilter=Stupeò filtrování textury pozadí:
+StandardBackground=Klasické pozadí
+WidescreenBackground=Panoramatické pozadí
+Background=Pozadí
+CubeTransparency=Prùhlednost krychle  (vyaduje restart programu)
+Transparent=Prùhledná
+Opaque=Neprùhledná
+
+
+[MENU]
+Options=Nastavení
+About=O programu
+Exit=Ukonèit
+Desktop=Plocha
+NotificationMessage=Aplikace vyaduje Vaši pozornost...
+NeedRecoverNotification=Aplikace neodpovídá, pokusím se ji obnovit
+RecoverNotification=Byl obnoven

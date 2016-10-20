@@ -1,0 +1,60 @@
+[LANGUAGE]
+Language=Norsk
+Author=Maerl1d/Mærl1d
+Site=http://hyrule.no
+
+[OPTION]
+Title=Yod'm 3D - Instillinger
+OK=Ok
+CANCEL=Avbryt
+
+[TAB_ACTIVATION]
+Title=Aktiveringstast
+ErrorHotKeyMandatory=Vennligst velg minst en tastesnarvei
+ErrorHotKeyInvalid=Det oppstod en feil når denne tastesnarveien ble registert
+HotkeyGroup=Tastesnarvei aktivering
+TextHotkeyArrowKeyLeftRight=( Pil venstre/høyre : Roter kube )
+TextHotkeyArrowKeyUp=( Pil opp : Vis kube på avstand )
+TextHotkeyArrowKeyDown=( Pil ned : Vis kube nærme )
+ShowCubeOnHorkeyDown=Vis kode når tastesnarveien trykkes
+StartWithWindows=Start med Windows
+AutoCenterCubeOnMouseUp=Midtstill kuben automatisk på mus opp
+
+
+[TAB_LANGUAGE]
+Title=Språk
+ChooseLanguage=Velg ditt språk
+Author=Forfatter :
+Site=Side :
+
+[TAB_ZOOM]
+Title=Zoom
+ZoomHotkeydown=Zoom hvis tastesnarvei holdes nede
+ZoomArrowKeyUPDown=Zoom hvis pil opp trykkes ned
+ZoomRotateCubeWithHotkey=Zoom når tastesnarvei holdes nede
+ZoomWhenMoveWindow=Zoom når vinuet flyttes
+
+[TAB_DISPLAY]
+Title=Visning
+Antialiasing=Aktiver anti-aliasing  (hvis det er mulig)
+HardwareProcessing=Aktiver hardware behandling (hvis det er mulig, Yod'm 3D må restarte)
+OptimizeMemory=Frigir minne når programmet ikke brukes (gjør aktivering tregere)
+CubeTextureFilter=Kube tekstur filter nivå :
+BackgroundTextureFilter=Bakgrunn textur filter nivå :
+StandardBackground=Standard bakgrunn
+WidescreenBackground=Widescreen bakgrunn
+Background=Bakgrunn
+CubeTransparency=Kube gjennomsiktighet (Yod'm 3D må restartes)
+Transparent=Gjennomsiktig
+Opaque=Synlig
+
+
+
+[MENU]
+Options=Instillinger
+About=Om
+Exit=Avslutt
+Desktop=Skrivebord
+NotificationMessage=Et program krever din oppmerksomhet...
+NeedRecoverNotification=Dette programmet svarer ikke, jeg vil prøve å gjennoprette
+RecoverNotification=Har blitt gjenopprettet

@@ -1,0 +1,60 @@
+[LANGUAGE]
+Language=Turkish v1.3
+Author=Razor777
+Site=http://www.redmole.org
+
+[OPTION]
+Title=Yod'm 3D - Seçenekler
+OK=Tamam
+CANCEL=Ýptal
+
+[TAB_ACTIVATION]
+Title=Hareket Tuþlarý
+ErrorHotKeyMandatory=Lütfen bir kýsayol tuþu belirleyiniz
+ErrorHotKeyInvalid=Kýsayol kayýt hatasý
+HotkeyGroup=Aktif Kýsayollar
+TextHotkeyArrowKeyLeftRight=( Sol / Sað ok tuþlarý :Küpü dönder )
+TextHotkeyArrowKeyUp=( Yukarý ok tuþu  : Küpü uzaklaþtýr )
+TextHotkeyArrowKeyDown=( Aþaðý ok tuþu : Küpü yakýnlaþtýr )
+ShowCubeOnHorkeyDown=Tuþa basýldýðý zaman küpü göster
+StartWithWindows=Windowsla beraber baþla
+AutoCenterCubeOnMouseUp=Küp fareyle çevrilirken merkeze hizala
+
+
+[TAB_LANGUAGE]
+Title=Dil
+ChooseLanguage=Lütfen Dilinizi Seçiniz
+Author=Yetkili :
+Site=Sitesi :
+
+[TAB_ZOOM]
+Title=Zoom Ayarlarý
+ZoomHotkeydown=Zoom tuþuna basýldýðýnda pencere ne kadar geriye gitsin?
+ZoomArrowKeyUPDown=Zoom yapýlýp ok tuþlarýyla küp döndürülürken pencere ne kadar geriye gitsin ?
+ZoomRotateCubeWithHotkey=Küp döner halde iken geriye doðru zoom ayarý mesafesi
+ZoomWhenMoveWindow=Pencereleri 4 masaüstünden herhangi bir masaüstüne taþýrken küp ne kadar küçük görünsün ?
+
+[TAB_DISPLAY]
+Title=Görünüm
+Antialiasing=Köþe düzeltmeyi aç   (Anti-Aliasing,Destekleniyorsa)
+HardwareProcessing=Donaným iþlemeyi aç  (Destekleniyorsa, Yod'm 3D yeniden baþlatýlmalýdýr.)
+OptimizeMemory=Kullanýrken hafýzayý boþalt  (Bilgisayarý yavaþlatabilir.)
+CubeTextureFilter=Küp kaplamasý filtre seviyesi:
+BackgroundTextureFilter=Arkaplan kaplama filtre seviyesi:
+StandardBackground=Normal arkaplan
+WidescreenBackground=Geniþekran arkaplan
+Background=Arkaplan Seçimi
+CubeTransparency=Geçirgen Küp  (Yod'm 3D yeniden baþlatýlmalýdýr.)
+Transparent=Geçirgenlik
+Opaque=Matlýk
+
+
+
+[MENU]
+Options=Seçenekler
+About=Hakkýnda
+Exit=Çýkýþ
+Desktop=Masaüstü
+NotificationMessage=Uygulama Kapatýlacaktýr...
+NeedRecoverNotification=Bu Uygulama Desteklenmiyor,Tekrar Deneyiniz..
+RecoverNotification=Uygulama Kurtarýldý..

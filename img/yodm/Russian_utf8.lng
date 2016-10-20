@@ -1,0 +1,35 @@
+﻿[LANGUAGE]
+Language=Russian
+Author=Alexey N. Vinogradov
+Site=http://www.agnitum.com
+
+[OPTION]
+Title=Настройка Yod'm 3D
+OK=OK
+CANCEL=Отмена
+
+[TAB_ACTIVATION]
+Title=Клавиша активации
+ErrorHotKeyMandatory=Пожалуйста, назначьте по крайней мере одну горячую клавишу
+ErrorHotKeyInvalid=При назначении этой горячей клавиши произошла ошибка
+HotkeyGroup=Активация горячей клавиши
+TextHotkeyArrowKeyLeftRight=( Стрелки влево/вправо: повернуть куб    )
+TextHotkeyArrowKeyUp=( Стрелка вверх : показать заднюю сторону          )
+TextHotkeyArrowKeyDown=( Стрелка вниз : показать переднюю сторону   )
+ShowCubeOnHorkeyDown=Показать куб при нажатии клавиши
+StartWithWindows=Запускать вместе с Windows
+
+
+[TAB_LANGUAGE]
+Title=Язык интерфейса
+ChooseLanguage=Укажите ваш язык
+Author=Автор :
+Site=Сайт :
+
+
+[MENU]
+Options=Настройка
+About=О программе
+Exit=Выход
+Desktop=Рабочий стол
+NotificationMessage=Программе требуется ваше вмешательство...

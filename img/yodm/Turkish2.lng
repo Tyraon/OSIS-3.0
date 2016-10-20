@@ -1,0 +1,60 @@
+[LANGUAGE]
+Language=Türkçe
+Author=Tahir BAL
+Site=http://www.bogazforum.com
+
+[OPTION]
+Title=Yod'm 3D - Ayarlarý
+OK=Tamam
+CANCEL=Vazgeç
+
+[TAB_ACTIVATION]
+Title=Etkinleþtirme Tuþ(larý)
+ErrorHotKeyMandatory=Lütfen en az bir tane Kýsa yol tuþu seçiniz
+ErrorHotKeyInvalid=Kýsayol Tuþu kayýt edilemedi
+HotkeyGroup=Kýsayol tuþu etkinleþtirme
+TextHotkeyArrowKeyLeftRight=( Tamam Tuþu + Sol/Sað :Küpü Çevir   )
+TextHotkeyArrowKeyUp=( Tamam Tuþu + Yukarý : Küpü Uzaklaþtýrma         )
+TextHotkeyArrowKeyDown=(Tamam Tuþu + Aþaðý : Küpü Yaklaþtýrma   )
+ShowCubeOnHorkeyDown= Kýsayollara týklanýldýðýnda Küpü göster
+StartWithWindows=Windows ile baþlat
+AutoCenterCubeOnMouseUp=Fare yukarý hareketinde Küpü ortala
+
+
+[TAB_LANGUAGE]
+Title=Dil
+ChooseLanguage=Dilinizi Seçini
+Author=Çeviren :
+Site=Adres :
+
+[TAB_ZOOM]
+Title=Yakýnlaþtýrma
+ZoomHotkeydown=Eðer Kýsayol tuþlarýna basýldýysa yaklaþtýr
+ZoomArrowKeyUPDown=Eðer Yukarý ok tuþuna basýldýysa yaklaþtýr
+ZoomRotateCubeWithHotkey=Kýsayol tuþlarýna rotasyon için basýldýðýnda yaklaþtýr
+ZoomWhenMoveWindow=Pencereler taþýndýðýnda yaklaþtýr
+
+[TAB_DISPLAY]
+Title=Görüntü
+Antialiasing=Örtüþmeyi önlemeyi(Jaggies&aliasing) aktif et (Destekleniyorsa)
+HardwareProcessing=Donanum iþlemlerini aktif et (Destekleniyorsa, Yod'm 3D Yeniden baþlatmaya ihtiyaç duyar)
+OptimizeMemory=Kullanýlmadýðý zaman Hafýzayý serbest býrak (Bu özellik aktifleþmeyi geçiktirebilir.)
+CubeTextureFilter=Küpte ki doku filtreleme seviyesi :
+BackgroundTextureFilter=Zeminde ki doku filtreleme seviyesi :
+StandardBackground=Standart zemin
+WidescreenBackground=Geniþ ekran zemini
+Background=Zemin
+CubeTransparency=Küpün Þeffaflýðý  (Yod'm 3D Yeniden baþlatmaya ihtiyaç duyar)
+Transparent=Saydam
+Opaque=Donuk(Opak)
+
+
+
+[MENU]
+Options=Seçenekler
+About=Hakkýnda
+Exit=Çýk
+Desktop=Masaüstü
+NotificationMessage=Dikkat etmeniz gereken bir uygulama var
+NeedRecoverNotification=Bu Uygulama cevap vermiyor(Çalýþmýyor), Kurtarýlmaya çalýþýlýyor
+RecoverNotification=Kurtarýldý

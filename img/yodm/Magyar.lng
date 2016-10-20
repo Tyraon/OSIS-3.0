@@ -1,0 +1,59 @@
+[LANGUAGE]
+Language=Magyar
+Author=vrnagy
+Site=nincs
+
+[OPTION]
+Title=Yod'm 3D - Beállítások
+OK=Ok
+CANCEL=Mégsem
+
+[TAB_ACTIVATION]
+Title=Aktiváló billentyûk
+ErrorHotKeyMandatory=Kérem válasszon legalább egy billentyût 
+ErrorHotKeyInvalid=Hiba történt ennek a billentyûnek a bejegyzésekor 
+HotkeyGroup=Billentyû aktiváció
+TextHotkeyArrowKeyLeftRight=(Balra/jobbra nyíl: Kocka forgatása)
+TextHotkeyArrowKeyUp=(Felfelé nyíl: Kocka távolítása)
+TextHotkeyArrowKeyDown=(Lefelé nyíl: Kocka közelítése)
+ShowCubeOnHorkeyDown=Kocka mutatása az aktiváló billentyû lenyomására
+StartWithWindows=Indítás a Windows indításakor 
+AutoCenterCubeOnMouseUp=A kocka középreforgatása ha az egérgombot felengedik
+
+[TAB_LANGUAGE]
+Title=Nyelv
+ChooseLanguage=Válasszon nyelvet
+Author=Szerzõ:
+Site=Weboldal:
+
+[TAB_ZOOM]
+Title=Nagyítás
+ZoomHotkeydown=Nagyítás ha lenyomják a billentyût
+ZoomArrowKeyUPDown=Nagyítás ha a FEL billentyût lenyomják
+ZoomRotateCubeWithHotkey=Nagyítás ha a frogatóbillentyût lenyomják
+ZoomWhenMoveWindow=Nagyítás ha az ablak mozog
+
+[TAB_DISPLAY]
+Title=Megjelenítés
+Antialiasing=Anti-aliasing bekapcsolásda (ha támogatott)
+HardwareProcessing=Hardveres feldolgozás bekapcsolása (ha támogatott, a Yod'm 3D-t újra kell indítani)
+OptimizeMemory=Memória felszabadítás ha nicns használatban (lassú aktivitást eredményez)
+CubeTextureFilter=Kockatextúra szintje :
+BackgroundTextureFilter=Háttértextúra szintje :
+StandardBackground=Síma háttér
+WidescreenBackground=Széles háttér
+Background=Háttér
+CubeTransparency=Kokca átlátszósága  (a Yod'm 3D-t újra kell indítani)
+Transparent=Átlátszó
+Opaque=Nem átlátszó
+
+
+
+[MENU]
+Options=Beállítások
+About=Névjegy
+Exit=Kilépés
+Desktop=Asztal
+NotificationMessage=Egy programnak szüksége van az Ön figyelmére...
+NeedRecoverNotification=Ez az alkalmazás nem válaszol, megpróbálom visszaállítani
+RecoverNotification=Visszaállítva

@@ -1,0 +1,35 @@
+[LANGUAGE]
+Language=Nederlands
+Author=Ben van Klink
+Site=http://chsalmon.club.fr
+
+[OPTION]
+Title=Yod'm 3D - Opties
+OK=OK
+CANCEL=Annuleren
+
+[TAB_ACTIVATION]
+Title=Activatie code
+ErrorHotKeyMandatory=Kies minimaal één hotkey
+ErrorHotKeyInvalid=Er is een fout opgetreden bij het registreren van deze hotkey
+HotkeyGroup=Hotkey activatie
+TextHotkeyArrowKeyLeftRight=(Pijltjestoets links/rechts : Draai kubus)
+TextHotkeyArrowKeyUp=(Pijltjestoets omhoog : Kubus uitgezoomd)
+TextHotkeyArrowKeyDown=(Pijltjestoets : Kubus ingezoomd)
+ShowCubeOnHorkeyDown=Toon kubus als hotkey ingedrukt
+StartWithWindows=Start met Windows
+
+
+[TAB_LANGUAGE]
+Title=Taal
+ChooseLanguage=Kies je taal
+Author=Author :
+Site=Site :
+
+
+[MENU]
+Options=Opties
+About=Over
+Exit=Einde
+Desktop=Desktop
+NotificationMessage=Een applicatie vraagt om je aandacht...

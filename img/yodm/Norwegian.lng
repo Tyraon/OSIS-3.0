@@ -1,0 +1,60 @@
+[LANGUAGE]
+Language=Norwegian / Norsk
+Author=Edward H. Valholm
+Site=http://www.valholm.no
+
+[OPTION]
+Title=Yod'm 3D - Innstillinger
+OK=OK
+CANCEL=Annuller
+
+[TAB_ACTIVATION]
+Title=Aktiveringstast
+ErrorHotKeyMandatory=Velg minst en tast
+ErrorHotKeyInvalid=Feil ved registrering av denne tasten
+HotkeyGroup=Hurtigvei til aktivering
+TextHotkeyArrowKeyLeftRight=( Piltast venstre/høyre : Roterer kube  )
+TextHotkeyArrowKeyUp=( Piltast opp : Zoom ut                           )
+TextHotkeyArrowKeyDown=( Piltast ned : Zoom inn                         )
+ShowCubeOnHorkeyDown=Vis kube når hurtigvei benyttes
+StartWithWindows=Start sammen med Windows
+AutoCenterCubeOnMouseUp=Sentrer kuben automatisk , når musetasten slippes
+
+
+[TAB_LANGUAGE]
+Title=Språk
+ChooseLanguage=Velg ditt språk
+Author=Forfatter :
+Site=Hjemmeside :
+
+[TAB_ZOOM]
+Title=Zoom
+ZoomHotkeydown=Zoom ved aktivering
+ZoomArrowKeyUPDown=Zoom ved benyttelse av piltasten opp
+ZoomRotateCubeWithHotkey=Zoom ved benyttelse av aktiveringstast + rotasjon
+ZoomWhenMoveWindow=Zoom ved skifting mellom vinduer
+
+[TAB_DISPLAY]
+Title=Skjerm
+Antialiasing=Aktiver anti-aliasing (Hvis tilgjengelig)
+HardwareProcessing=Aktiver hardware behandling (Hvis tilgjengelig; krever omstart av Yod'm 3D)
+OptimizeMemory=Frigjør hukommelse, når kuben ikke benyttes (Ulempe: Langsom aktivering)
+CubeTextureFilter=Kubens tekstur nivå :
+BackgroundTextureFilter=Bakgrunnens tekstur nivå :
+StandardBackground=Standard bakrunn
+WidescreenBackground=Widescreen bagrunn
+Background=Bakgrunn
+CubeTransparency=Kubens transparenthet (Krever omstart av Yod'm 3D)
+Transparent=Gjennomsiktig
+Opaque=Ugjennomsiktig
+
+
+
+[MENU]
+Options=Innstillinger
+About=Om
+Exit=Avslutt
+Desktop=Skrivebord
+NotificationMessage=Et program krever din oppmerksomhet ..
+NeedRecoverNotification=Programmet svarer ikke. Det forsøker å restarte.
+RecoverNotification=Er restartet.

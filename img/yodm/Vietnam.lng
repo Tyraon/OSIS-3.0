@@ -1,0 +1,60 @@
+[LANGUAGE]
+Language=VietNam
+Author=Nguyen Vinh Dung
+Site=
+
+[OPTION]
+Title=Yod'm 3D - Options
+OK=Dong y
+CANCEL=Huy bo
+
+[TAB_ACTIVATION]
+Title=Khoa kich hoat
+ErrorHotKeyMandatory=Xin chon it nhat mot phim nong
+ErrorHotKeyInvalid=Loi dang ky phim nong nay
+HotkeyGroup=Kich hoat phim nong
+TextHotkeyArrowKeyLeftRight=( Phim mui ten Trai/Phai :Quay lap phuong    )
+TextHotkeyArrowKeyUp=( Phim mui ten len tren : Hien thi khoi lap phuong xa          )
+TextHotkeyArrowKeyDown=( Phim mui ten xuong : Hien thi khoi lap phuong gan   )
+ShowCubeOnHorkeyDown=Hien thi khoi lap phuong khi dua phim nong xuong
+StartWithWindows=Khoi dong cung Windows
+AutoCenterCubeOnMouseUp=Tu dong dua va chinh giua khi dua con chuot len
+
+
+[TAB_LANGUAGE]
+Title=Ngon ngu
+ChooseLanguage=Lua chon ngon ngu cua ban
+Author=Tac gia :
+Site=Trang chu :
+
+[TAB_ZOOM]
+Title=Tang, giam
+ZoomHotkeydown=Tang giam neu giu phim nong
+ZoomArrowKeyUPDown=Tang giam neu phim mui ten len thi xuong
+ZoomRotateCubeWithHotkey=Tang giam khi phim nong xuong khi quay
+ZoomWhenMoveWindow=Tang giam khi di chuyen cua so
+
+[TAB_DISPLAY]
+Title=Hien thi
+Antialiasing=Kich hoat chong dat biet danh  (Neu da duoc ho tro)
+HardwareProcessing=Kich hoat su xu ly phan cung (Neu da duoc ho tro, Yod'm 3D can duoc khoi dong lai)
+OptimizeMemory=Bo nho con trong khi khong su dung (Nhung lam su kich hoat bi cham di)
+CubeTextureFilter=Ket cau lap phuong:
+BackgroundTextureFilter=Ket cau nen noc muc:
+StandardBackground=Nen tieu chuan
+WidescreenBackground=Nen Widescreen
+Background=Nen
+CubeTransparency=Khoi lap phuong trong suot  (Yod'm 3D can duoc khoi dong lai)
+Transparent=Trong suot
+Opaque=Mo`
+
+
+
+[MENU]
+Options=Tuy chon
+About=Ve tac gia
+Exit=Thoat
+Desktop=Desktop
+NotificationMessage=Ung dung can su chu y cua ban...
+NeedRecoverNotification=Ung dung nay khong nhan duoc su tra loi, Toi se thu phuc hoi lai
+RecoverNotification=Da duoc khoi phuc

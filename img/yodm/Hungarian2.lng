@@ -1,0 +1,35 @@
+[LANGUAGE]
+Language=Magyar
+Author=ermike
+Site=No site.
+
+[OPTION]
+Title=Yod'm 3D - Beállítások
+OK=OK
+CANCEL=Mégsem
+
+[TAB_ACTIVATION]
+Title=Aktiváló billentyû
+ErrorHotKeyMandatory=Kérem válasszon legalább egy billentyût
+ErrorHotKeyInvalid=Hiba történt ennek a billentyûnek a bejegyzésekor
+HotkeyGroup=Billentyû aktiváció
+TextHotkeyArrowKeyLeftRight=( Balra/jobbra nyíl gomb :Kocka forgatása    )
+TextHotkeyArrowKeyUp=( Felfelé nyíl gomb : Kocka távolítása  )
+TextHotkeyArrowKeyDown=( Lefelé nyíl gomb : Kocka közelítése   )
+ShowCubeOnHorkeyDown=Kocka mutatása az aktiváló billentyû lenyomására
+StartWithWindows=Indítás a Windows indításakor
+
+
+[TAB_LANGUAGE]
+Title=Nyelv
+ChooseLanguage=Válasszon nyelvet
+Author=Szerzõ :
+Site=Honlap :
+
+
+[MENU]
+Options=Beállítások
+About=Névjegy
+Exit=Kilépés
+Desktop=Asztal
+NotificationMessage=Egy programnak szüksége van az Ön figyelmére...

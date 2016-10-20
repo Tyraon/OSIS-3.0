@@ -1,0 +1,89 @@
+[LANGUAGE]
+Language=Português BR
+Author=Fabio Perkowitsch Mulero
+Site=http://www.vaztechnet.com
+
+[OPTION]
+Title=Opções do Yod'm 3D
+OK=OK
+CANCEL=Cancelar
+
+[TAB_ACTIVATION]
+Title=Teclas de ativação
+ErrorHotKeyMandatory=Selecione pelo menos uma das teclas de atalho
+ErrorHotKeyInvalid=Erro ao registrar esta(s) tecla(s) de atalho
+HotkeyGroup=Teclas de atalho
+TextHotkeyArrowKeyLeftRight=( Setas esq/dir: Rodar o cubo        )
+TextHotkeyArrowKeyUp=( Seta p/ cima:  Recua o cubo        )
+TextHotkeyArrowKeyDown=( Seta p/ baixo: Aproxima o cubo  )
+ShowCubeOnHorkeyDown=Exibe o cubo ao pressionar a(s) tecla(s) de atalho
+StartWithWindows=Carregar ao iniciar o Windows
+AutoCenterCubeOnMouseUp=Alinha o cubo ao liberar o botão do mouse
+HideTaskbarIcon=Esconde icone na barra de tarefas (executar Yodm3D novamente para abrir janela de opções)
+ShowCubeOnWindowMoveOut=Auto-rotacionar o cubo quando a janela for movida para fora da tela
+DisableTaskbarButtonAnimation=Disabilitar animação dos botões na barra de tarefas (troca rápida de desktop)
+DisableTaskbarButtonAnimationRestart=(windows precisa ser reinicializado)
+AutoSwitchToAttentionWindow=Alternar automaticamente para a janela que necessita de atenção
+ShowAttentionMessage=Mostar mensagens de alerta de janelas de outros desktops
+AutoHideWindowsOtherDesktop=Auto-esconder janelas de outros desktops
+
+[TAB_LANGUAGE]
+Title=Idioma
+ChooseLanguage=Escolha seu idioma
+Author=Autor :
+Site=Site :
+
+[TAB_ZOOM]
+Title=Zoom
+ZoomHotkeydown=Zoom ao pressionar a tecla de atalho
+ZoomArrowKeyUPDown=Zoom ao pressionar seta para cima
+ZoomRotateCubeWithHotkey=Zoom ao pressionar a tecla de atalho junto com a seta para rotação
+ZoomWhenMoveWindow=Zoom ao mover a janela entre as áreas de trabalho
+RotationSpeed=Velocidade da Rotação
+ZoomSpeed=Velocidade do Zoom
+
+
+[TAB_DISPLAY]
+Title=Exibição
+Antialiasing=Ativar suavização  (se suportado)
+HardwareProcessing=Ativar processamento por hardware (se suportado, o Yod'm 3D precisa ser reiniciado)
+OptimizeMemory=Liberar memória quando não usado (mas torna a ativação mais lenta)
+CubeTextureFilter=Nível do filtro de textura do cubo :
+BackgroundTextureFilter=Nível do filtro de textura do plano de fundo :
+StandardBackground=Plano de fundo padrão
+WidescreenBackground=Plano de fundo Widescreen
+Background=Plano de fundo
+CubeTransparency=Transparência do cubo  (Yod'm 3D precisa ser reiniciado)
+Transparent=Transparência
+Opaque=Opacidade
+ActiveWindowOpaque=Janela ativa sempre opaca
+TaskbarOpaque=Barra de tarefas sempre opaca
+
+
+[TAB_DESKTOP]
+Title=Desktop
+Desktop1=Desktop 1 :
+Desktop2=Desktop 2 :
+Desktop3=Desktop 3 :
+Desktop4=Desktop 4 :
+WinKey=+ Tecla Windows
+DirectAccess=Acesso direto
+ManageDesktopIcon=Administrar icones para todos os desktops
+
+
+[TAB_MOUSE]
+Title=Mouse
+CubeActivation=Ativação do cubo
+ActivateCubeWhenCursorOnCorner=Ativar o cubo quando o cursor do mouse estiver sobre os cantos do desktop
+ActivationDelay=Delay para ativação (em ms) :
+
+
+[MENU]
+Options=Opções
+About=Sobre
+Exit=Sair
+Desktop=Área de trabalho
+NotificationMessage=Um aplicativo solicita sua atenção...
+NeedRecoverNotification=Este aplicativo não está respondendo, tentarei recuperá-lo
+RecoverNotification=Foi recuperado
+Current=(Desktop Atual)

@@ -1,0 +1,89 @@
+[LANGUAGE]
+Language=Italiano 3.0
+Author=Tiziano Dal Betto
+Site=http://tdalbet.interfree.it
+
+[OPTION]
+Title=Yod'm 3D - Opzioni
+OK=OK
+CANCEL=Annulla
+
+[TAB_ACTIVATION]
+Title=Tasti di attivazione
+ErrorHotKeyMandatory=Selezionare almeno un tasto di attivazione
+ErrorHotKeyInvalid=Si è verificato un errore nella registrazione del tasto di attivazione
+HotkeyGroup=Tasti di attivazione
+TextHotkeyArrowKeyLeftRight=(Freccia sinistra/destra: Ruota il cubo)
+TextHotkeyArrowKeyUp=(Freccia su: Allontana il cubo)
+TextHotkeyArrowKeyDown=(Freccia giu': Avvicina il cubo)
+ShowCubeOnHorkeyDown=Mostra il cubo quando premi i tasti di attivazione
+StartWithWindows=Esecuzione automatica all'avvio di Windows
+AutoCenterCubeOnMouseUp=Centra automaticamente il cubo al rilascio del mouse
+HideTaskbarIcon=Nascondi l'icona dell'area di notifica (lanciare di nuovo Yodm3D per accedere alle opzioni)
+ShowCubeOnWindowMoveOut=Ruota automaticamente il cubo se si sposta la finestra fuori dal bordo
+DisableTaskbarButtonAnimation=Disabilita l'animazione dei pulsanti delle applicazioni (cambio desktop più rapido)
+DisableTaskbarButtonAnimationRestart=(E' necessario riavviare Windows)
+AutoSwitchToAttentionWindow=Attivare automaticamente l'applicazione che richiede attenzione
+ShowAttentionMessage=Mostra messaggi di attenzione delle applicazioni su altri desktop
+AutoHideWindowsOtherDesktop=Nascondi automaticamente le finestre di applicazioni che appartengono ad altri desktop
+
+[TAB_LANGUAGE]
+Title=Lingua
+ChooseLanguage=Scegli la tua lingua
+Author=Authore :
+Site=Sito web :
+
+[TAB_ZOOM]
+Title=Zoom
+ZoomHotkeydown=Ingrandimento dopo pressione dei tasti di attivazione
+ZoomArrowKeyUPDown=Ingrandimento in caso di pressione del tasto SU
+ZoomRotateCubeWithHotkey=Ingrandimento se premuto il tasto per la rotazione
+ZoomWhenMoveWindow=Ingrandimento durante lo spostamento di una finestra
+RotationSpeed=Velocità di rotazione
+ZoomSpeed=Velocità di ingrandimento
+
+
+[TAB_DISPLAY]
+Title=Visualizzazione
+Antialiasing=Attiva anti-aliasing (se supportato)
+HardwareProcessing=Attiva preprocessig hardware (se supportato, necessita il riavvio di Yod'm 3D)
+OptimizeMemory=Libera la memoria quando non utilizzata (ma rallenta l'attivazione)
+CubeTextureFilter=Livello di filtro della texture del cubo :
+BackgroundTextureFilter=Livello del filtro della texture dello sfondo :
+StandardBackground=Sfondo 4/3
+WidescreenBackground=Sfondo 16/9
+Background=Sfondo
+CubeTransparency=Trasparenza del cubo (Yod'm 3D deve essere riavviato)
+Transparent=Trasparente
+Opaque=Opaco
+ActiveWindowOpaque=La finestra attiva rimane opaca
+TaskbarOpaque=La barra delle applicazioni rimane opaca
+
+
+[TAB_DESKTOP]
+Title=Desktop
+Desktop1=Desktop 1 :
+Desktop2=Desktop 2 :
+Desktop3=Desktop 3 :
+Desktop4=Desktop 4 :
+WinKey=+ tasto "Windows"
+DirectAccess=Accesso diretto
+ManageDesktopIcon=Personalizza le icone per ogni desktop
+
+
+[TAB_MOUSE]
+Title=Mouse
+CubeActivation=Attivazione del cubo
+ActivateCubeWhenCursorOnCorner=Attiva il cubo quando il mouse è nell'angolo dello schermo
+ActivationDelay=Ritardo di attivazione (in ms) :
+
+
+[MENU]
+Options=Opzioni
+About=Informazioni
+Exit=Esci
+Desktop=Desktop
+NotificationMessage=Una applicazione richiede attenzione...
+NeedRecoverNotification=Questa applicazione non sta rispondendo, provo a recuperarla
+RecoverNotification=è stata recuperata
+Current=(Desktop attuale)

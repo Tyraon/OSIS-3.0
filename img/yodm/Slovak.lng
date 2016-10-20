@@ -1,0 +1,58 @@
+[LANGUAGE]
+Language=Slovak
+Author=Vlado Jasan - Sunny
+Site=
+
+[OPTION]
+Title=Yod'm 3D - Nastavenia
+OK=Potvrdi
+CANCEL=Zruši
+
+[TAB_ACTIVATION]
+Title=Klávesy
+ErrorHotKeyMandatory=Zvo¾ aspoò jednu klávesu
+ErrorHotKeyInvalid=Chyba registrácie tıchto kláves
+HotkeyGroup=Aktivaèné klávesy
+TextHotkeyArrowKeyLeftRight=( Klávesa "šipka v¾avo/vpravo"  :  Otáèanie kocky )
+TextHotkeyArrowKeyUp=( Klávesa "šipka hore"  :  Zobrazenie kocky ïaleko )
+TextHotkeyArrowKeyDown=( Klávesa "šipka dole"  :  Zobrazenie kocky blízko )
+ShowCubeOnHorkeyDown=Zobrazi kocku pri stlaèení kláves
+StartWithWindows=Spúša Yod'm 3D spolu s Windows
+AutoCenterCubeOnMouseUp=Automaticky centrova kocku po uvo¾není tlaèidla myšky
+
+
+[TAB_LANGUAGE]
+Title=Jazyk
+ChooseLanguage=Zvo¾ si jazyk
+Author=Autor :
+Site=Web stránka :
+[TAB_ZOOM]
+Title=Zväèšenie
+ZoomHotkeydown=Zväèšenie pri stlaèení klávesy
+ZoomArrowKeyUPDown=Zväèšenie pri stlaèení klávesy "šipka hore"
+ZoomRotateCubeWithHotkey=Zväèšenie pri stlaèení klávesy pre otáèanie
+ZoomWhenMoveWindow=Zväèšenie pri presúvaní okna
+
+[TAB_DISPLAY]
+Title=Zobrazenie
+Antialiasing=Aktivova anti-aliasing  (ak je podporovanı)
+HardwareProcessing=Aktivova hardwarovú podporu (ak je podporovaná, Yod'm 3D sa musí reštartova)
+OptimizeMemory=Uvo¾ni pamä ak sa nepouíva (pomalšia aktivácia)
+CubeTextureFilter=Úroveò filtra textúry kocky :
+BackgroundTextureFilter=Úroveò filtra textúry pozadia :
+StandardBackground=Štandardné pozadie
+WidescreenBackground=Širokouhlé pozadie
+Background=Pozadie
+CubeTransparency=Prieh¾adnos kocky  (Yod'm 3D sa musí reštartova)
+Transparent=Prieh¾adná
+Opaque=Plná
+
+
+[MENU]
+Options=Nastavenia
+About=O programe
+Exit=Ukonèi
+Desktop=Plocha
+NotificationMessage=Program potrebuje tvoju pomoc.
+NeedRecoverNotification=Program neodpovedá, pokúsim sa ho obnovi
+RecoverNotification=Je obnovenı

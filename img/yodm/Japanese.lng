@@ -1,0 +1,33 @@
+[LANGUAGE]
+Language=Japanese
+Author=barlog だい
+Site=http://barca.daa.jp
+
+[OPTION]
+Title=Yod'm 3D - オプション
+OK=OK
+CANCEL=キャンセル
+
+[TAB_ACTIVATION]
+Title=キーの有効化
+ErrorHotKeyMandatory=最低でも一つのホットキーを選択してください
+ErrorHotKeyInvalid=このホットキーは登録できません
+HotkeyGroup=ホットキーの有効化
+TextHotkeyArrowKeyLeftRight=( 方向キー　← / → : キューブの回転　)
+TextHotkeyArrowKeyUp=( 方向キー　↑ : キューブを遠ざけ表示　)
+TextHotkeyArrowKeyDown=( 方向キー　↓ : キューブを近づけ表示　)
+ShowCubeOnHorkeyDown=ホットキー押下でキューブを表示
+StartWithWindows=スタートアップで起動
+
+
+[TAB_LANGUAGE]
+Title=言語
+ChooseLanguage=言語を選択してください
+Author=翻訳者 : barlog
+Site=サイト : http://barca.daa.jp
+
+
+[MENU]
+Options=オプション
+About=バージョン情報
+Exit=終了

@@ -1,0 +1,33 @@
+[LANGUAGE]
+Language=Danish
+Author=Søren Aagaard
+Site=
+
+[OPTION]
+Title=Yod'm 3D - Indstillinger
+OK=OK
+CANCEL=Fortryd
+
+[TAB_ACTIVATION]
+Title=Genvejstast
+ErrorHotKeyMandatory=Vælg mindst en genvejstast
+ErrorHotKeyInvalid=Fejl under registreringen af genvejstast
+HotkeyGroup=Aktivering af genvejstast
+TextHotkeyArrowKeyLeftRight=Venstre/højre pil: Drej terning
+TextHotkeyArrowKeyUp=Pil op : Vis terning på afstand
+TextHotkeyArrowKeyDown=Pil ned : Vis terning tæt på
+ShowCubeOnHorkeyDown=Vis terning mens genvejstast holdes nede
+StartWithWindows=Start med Windows
+
+
+[TAB_LANGUAGE]
+Title=Sprog
+ChooseLanguage=Vælg sprog
+Author=Author :
+Site=Site :
+
+
+[MENU]
+Options=Indstillinger
+About=Om
+Exit=Afslut
