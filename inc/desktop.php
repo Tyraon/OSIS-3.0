@@ -10,7 +10,7 @@ if(@$_GET['pl'] != "") {
 $i=0;
 $verz = @opendir($pl.'data/desktop/'.$username);
 if(@scandir($pl.'data/desktop/'.$username)){
-	echo '<div id="desktop" style="height:100%;">';
+	echo '<div id="desktop" style="height:100%; max-height:100%; display:block;">';
 	while($file = @readdir($verz)) {
 		if($file != '.' && $file != '..') {
 			switch(strstr($file,'.')) {

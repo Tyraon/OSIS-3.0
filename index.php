@@ -71,6 +71,7 @@ if($_SESSION['gm'] >= "4") {
 </span>
 <span style="float:right;">
 <button class="screenshot" type="button" onclick="screenShot(document.body);" title="Screenshot erzeugen."></button>
+<button class="prefs" type="button"></button>
 <span class="pipe">|</span>
 <span id="clock">Initialisiere</span>
 </span>

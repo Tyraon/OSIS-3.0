@@ -210,6 +210,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', end
 	cursor: default;
 }
 
+.dSym {
+	display:inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
 .dSym:hover {
 	color: #999;
 	text-shadow: 0px 0px 1px white;
@@ -291,4 +297,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', end
 	position: absolute;
 	top: 0px;
 	left: 0px;
+}
+
+.prefs {
+	background: #111;
+	background-image: url('img/settings2.png');
+	background-size: 25px 25px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: none;
+	border-radius: 20px;
+	width: 25px;
+	height: 25px;
+	box-shadox: inset 1px 1px 1px 1px white, inset -1px -1px 1px 1px black;
+}
+
+.prefs:focus {
+	outline: none;
 }

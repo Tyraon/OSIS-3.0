@@ -70,6 +70,10 @@ $(document).ready(function(){
 	$('#logout').click(function(){
 		location.replace('sys/logout.php');
 	});
+	
+	$('.prefs').click(function(){
+		openWindow('Einstellungen', 'inc/prefs.php');
+	});
 
 	function newMenuClose(){
 		//alert();
@@ -97,6 +101,8 @@ $(document).ready(function(){
 	
 	$('#deskt').mousedown(function(e){if(e.button == 2){deskContext(e); return false;}});
 	
+	
+	
 });
 
 
@@ -117,7 +123,8 @@ $(document).ready(function(){
 	}	
 
 	function buildTask(titel,wId){
-		var newTask = '<span id="task' + wId + '" class="task" onmousedown="winFocus(' + wId + ');">' + titel + '</span>';
+		var maxtitle = titel.length > 20 ? titel.substr(0,16) + '...' : titel;
+		var newTask = '<span id="task' + wId + '" class="task" onmousedown="winFocus(' + wId + ');">' + maxtitle + '</span>';
 		return newTask;
 	}
 	
