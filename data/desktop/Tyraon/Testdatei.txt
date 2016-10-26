@@ -1,5 +1,0 @@
-#TITLE:Hello World
-#AUTHOR:Sven K�stel
-#IDX:index.php
-#CORE:mangos
-#VERS:3

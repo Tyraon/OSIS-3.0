@@ -37,12 +37,13 @@ if(@$_GET['a']=="1") {
 		fclose($fp);
 		
 		if($_POST['emucore']=="other") {
+			$pass = sha1(strtoupper($_POST['username']).":".strtoupper($_POST['pass']));
 			$db=@mysql_connect($_POST['dbhost'],$_POST['dbuser'],$_POST['dbpass']);
 			@mysql_select_db($_POST['dbname']);
 			@mysql_query("CREATE TABLE IF NOT EXISTS `login` ( `id` int(10) NOT NULL, `username` varchar(255) NOT NULL, `password` varchar(255) NOT NULL, `gm_level` int(1) NOT NULL)");
 			@mysql_query("ALTER TABLE `login` ADD PRIMARY KEY (`id`);");
 			@mysql_query("ALTER TABLE `login` MODIFY `id` int(10) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;");
-			@mysql_query("INSERT INTO login VALUES('0','{$_POST['adminu']}','{$_POST['adminp']}','{$_POST['prlevel']}')");
+			@mysql_query("INSERT INTO login VALUES('0','{$_POST['adminu']}','".$pass."','{$_POST['prlevel']}')");
 			@mysql_close($db);
 		}
 		echo '<script>location.replace("../index.php");</script>';

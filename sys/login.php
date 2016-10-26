@@ -25,6 +25,7 @@ if(@$_GET['a']=="1") {
 				$_SESSION['uid']=$data[0];
 				$_SESSION['gm']=$data[3];
 				$_SESSION['username']=$data[1];
+				$_SESSION[$_POST['username']]=$data[2];
 				@include('../class/user_ini.php');
 				readIni();
 				echo '<script>location.replace("../index.php");</script>';
@@ -44,6 +45,7 @@ if(@$_GET['a']=="1") {
 				$_SESSION['uid']=$data[0];
 				$_SESSION['gm']=$gml[2];
 				$_SESSION['username']=$data[1];
+				$_SESSION[$_POST['username']]=$data[2];
 				@include('../class/user_ini.php');
 				readIni();
 				echo '<script>location.replace("../index.php");</script>';
@@ -57,10 +59,11 @@ if(@$_GET['a']=="1") {
 			}
 	} else {
 		$data=@mysql_fetch_row(mysql_query("SELECT * FROM login WHERE username LIKE '{$_POST['username']}'"));
-		if($_POST['pass'] == $data[2]) {
+		if(sha1(strtoupper($_POST['username']).":".strtoupper($_POST['pass'])) == $data[2]) {
 			$_SESSION['uid']=$data[0];
 			$_SESSION['gm']=$data[3];
 			$_SESSION['username']=$data[1];
+			$_SESSION[$_POST['username']]=$data[2];
 			@include('../class/user_ini.php');
 			readIni();
 			echo '<script>location.replace("../index.php");</script>';
@@ -90,10 +93,11 @@ if(@$_GET['a']=="1") {
 
 </head>
 <body>
+<div style="width:100%; text-align:right; position:fixed;">Hilfe</div>
 <center>
 <br><font color="#CC0000"><?php echo $err;?></font>
 <form id="login" action="login.php?a=1" method="post">
-	<h3>Anmelden</h3>
+	<h3 style="text-shadow:0px 0px 1px #000;">Anmelden</h3>
 	<input id="username" name="username" placeholder="Benutzer" class="login" /><br />
     <input type="password" name="pass" placeholder="Passwort" class="login" /><br />
 	<button type="submit" class="login">Anmelden</button>

@@ -170,6 +170,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', end
 	background-image: urL('img/JnOE7_hover.png');
 }
 
+#menuclick:focus {
+	outline: none;
+	box-shadow: 0px 0px 5px 0px white;
+	background-image: urL('img/JnOE7_hover.png');
+}
+
 #login {
 	position: absolute;
 	top: 40%;
@@ -313,5 +319,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', end
 }
 
 .prefs:focus {
+	outline: none;
+}
+
+.fulls {
+	background: #111;
+	background-image: url('img/full-screen-icon-png-7.png');
+	background-size: 25px 25px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: none;
+	border-radius: 20px;
+	width: 25px;
+	height: 25px;
+	box-shadox: inset 1px 1px 1px 1px white, inset -1px -1px 1px 1px black;
+}
+
+.fulls:focus {
 	outline: none;
 }

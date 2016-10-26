@@ -12,12 +12,39 @@ $(document).ready(function(){
 		return false;
 	});
 	
+	$(document).keydown('f11', function(e){
+		//alert();
+		/*setTimeout(function(){
+			location.reload();
+		},10);*/
+		//return false;
+	});
+	
+	$(document).bind('keydown', function(e){
+		if(e.which == 17){
+			$(document).bind('keydown', function(ev){
+				if(ev.which == 16){
+					$(document).bind('keydown', function(evt){
+						if(evt.which == 73) return false;
+					});
+				}
+			});
+		}
+	});
+	
+	$(document).bind('keydown', function(e){
+		if(e.which == 36)
+		screenLock();
+	});
+	
+	
 	$(document).click(function(){
 			
 			endContext();
 	});
 	
 	
+		
 	if(!$.browser.webkit){
 		alert('Bitte benutze einen richtigen Browser, wie den Google Chrome!');
 		location.replace('sys/logout.php');
@@ -35,10 +62,10 @@ $(document).ready(function(){
 	$('#newmenu').css({"top":menpos + "px"});
 	newMenuClose();	
 	
-	$(window).resize(function(){
+	/*$(window).resize(function(){
 		newmenuheight = $('#newmenu').height();
 		menpos = $(document).innerHeight()-($('#newmenu').height()+22);
-	});
+	});*/
 	
 	$('.menuitem').click(function(e){
 		//if(!e){var e=window.event;}
@@ -74,6 +101,10 @@ $(document).ready(function(){
 	$('.prefs').click(function(){
 		openWindow('Einstellungen', 'inc/prefs.php');
 	});
+	
+	$('.fulls').click(function(){
+		fullScreen();
+	});
 
 	function newMenuClose(){
 		//alert();
@@ -83,6 +114,7 @@ $(document).ready(function(){
 
 	function newMenuOpen(){
 		$('#newmenu').focus();
+		var menpos = ($('#menu').offset().top-(newmenuheight));
 		$('#newmenu').css({"width":"200px","height":newmenuheight + "px","min-height":"200px","top":menpos + "px","transition":"all 0.3s ease-in-out"});
 		$('#menuclick').css({"box-shadow":"0px 0px 5px 0px white"});
 	}
@@ -101,7 +133,11 @@ $(document).ready(function(){
 	
 	$('#deskt').mousedown(function(e){if(e.button == 2){deskContext(e); return false;}});
 	
-	
+	function fullScreen(){
+		document.documentElement.webkitRequestFullScreen();
+		newMenuClose();
+	}
+
 	
 });
 
@@ -251,4 +287,43 @@ function screenShot(area){
 		});
 	  }
 	});
+}
+
+function screenSaver(){
+	setInterval(function(){
+		var time = new Date();
+		var ho = time.getHours() < 10 ? "0" + time.getHours() : time.getHours();
+		var mi = time.getMinutes() < 10 ? "0" + time.getMinutes() : time.getMinutes();
+		var se = time.getSeconds() < 10 ? "0" + time.getSeconds() : time.getSeconds();
+		$('#scsclock').html(ho + ':' + mi + ':' + se);
+	},1000);
+	var scs = '<marquee id="clockMarq" behavior="alternate" direction="up" style="width:100%; height:100%;"><marquee id="scsclock" behavior="alternate" direction="right" style="width:100%; color:#f1f1f1; font-size:128px; text-shadow:1px 0 #CCCCCC, 0 1px #AAAAAA,2px 1px #CCCCCC, 1px 2px #AAAAAA,3px 2px #CCCCCC, 2px 3px #AAAAAA,4px 3px #CCCCCC, 3px 4px #AAAAAA,5px 4px #CCCCCC, 4px 5px #AAAAAA,6px 5px #CCCCCC, 5px 6px #AAAAAA,6px 6px #CCCCCC;"></marquee></marquee><script>lockBindings = $(document).bind(\'keydown\',function(e){if(e.which == 122)return false;});</script>';
+	$('#lockScreen').append(scs);	
+}
+
+function unlockPCheck(){
+	if($.sha1(username.toUpperCase() + ':' + $('#unlockInput').val().toUpperCase()) == tempCheck){
+		$('#lockScreen').remove();
+		lockBindings ='';
+		clearTimeout(waitForReLock);
+	}else{
+		$('#lockScreen').remove();
+		screenLock();
+	}
+}
+
+function unlockScreen(){
+	$('#clockMarq').remove();
+	var unlockForm = '<h2>Entsperren</h2><h3>' + username + '</h3><input id="unlockInput" type="password" class="login" style="margin-top:200px;" /><br><button id="unlockBtn" class="login">Entsperren</button><script>$(\'#unlockInput\').focus();$(\'#unlockBtn\').click(unlockPCheck);</script>';
+	$('#lockScreen').append(unlockForm);
+	waitForReLock = setTimeout(function(){
+		$('#lockScreen').remove();
+		screenLock();
+	},15000);
+}
+
+function screenLock(){
+	var lockDiv = '<div id="lockScreen" style="width:100%; height:100%; text-align:center; background:#111; position:absolute; top:0px; z-Index:900;"><script>$(\'#lockScreen\').click(function(){unlockScreen();});</script></div>';
+	$('body').append(lockDiv);
+	screenSaver();
 }

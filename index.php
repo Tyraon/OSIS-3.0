@@ -22,6 +22,7 @@ if(!file_exists('config.php')) {
 	<script src="sys/jquery.fullscreen-0.4.1.min.js"></script>
     <script src="http://code.jquery.com/jquery-migrate-1.4.1.js"></script>
     <script src="sys/html2canvas.js"></script>
+    <script src="sys/sha1.js"></script>
     <style>
 		body{background-image:url('<?php echo $wallpaper;?>');	overflow: hidden;
 }
@@ -29,6 +30,7 @@ if(!file_exists('config.php')) {
     <link type="text/css" rel="stylesheet" href="main.css" />
     <script>
 		var username = "<?php echo $_SESSION['username'];?>";
+		var tempCheck = "<?php echo $_SESSION[$_SESSION['username']];?>";
 		var userIni = {};
 	</script>
     <?php splitIni(); ?>
@@ -72,6 +74,7 @@ if($_SESSION['gm'] >= "4") {
 <span style="float:right;">
 <button class="screenshot" type="button" onclick="screenShot(document.body);" title="Screenshot erzeugen."></button>
 <button class="prefs" type="button"></button>
+<!--<button class="fulls" type="button"></button>-->
 <span class="pipe">|</span>
 <span id="clock">Initialisiere</span>
 </span>
